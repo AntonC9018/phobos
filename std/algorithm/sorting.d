@@ -372,7 +372,7 @@ if (is(typeof(ordered!less(values))))
 /**
 Partitions a range in two using the given `predicate`.
 
-Specifically, reorders the range `r = [left, right$(RPAREN)` using $(REF_ALTTEXT swap, swap, std,algorithm,mutation)
+Specifically, reorders the range `r = [left, right)` using $(REF_ALTTEXT swap, swap, std,algorithm,mutation)
 such that all elements `i` for which `predicate(i)` is `true` come
 before all elements `j` for which `predicate(j)` returns `false`.
 
